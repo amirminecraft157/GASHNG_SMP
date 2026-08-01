@@ -8,44 +8,28 @@ scroll-behavior:smooth;
 
 
 body{
-    background: linear-gradient(
-        -45deg,
-        #000000,
-        #2a004f,
-        #7b2cff,
-        #ffd700,
-        #8a2be2,
-        #000000
-    );
-    background-size: 600% 600%;
-    animation: bgMove 12s ease-in-out infinite;
-    color: white;
-    overflow-x: hidden;
+background:linear-gradient(-45deg,#090909,#22003c,#5f00b8,#000000);
+background-size:400% 400%;
+animation:bgMove 15s ease infinite;
+color:white;
+overflow-x:hidden;
 }
 
 
 
 @keyframes bgMove{
 
-    0%{
-        background-position:0% 50%;
-    }
+0%{
+background-position:0% 50%;
+}
 
-    25%{
-        background-position:100% 0%;
-    }
+50%{
+background-position:100% 50%;
+}
 
-    50%{
-        background-position:100% 100%;
-    }
-
-    75%{
-        background-position:0% 100%;
-    }
-
-    100%{
-        background-position:0% 50%;
-    }
+100%{
+background-position:0% 50%;
+}
 
 }
 
